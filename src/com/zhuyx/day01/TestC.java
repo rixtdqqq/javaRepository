@@ -53,7 +53,7 @@ class BH<L>{
 	}
 
 	public void abcd(){
-		System.out.println("������"+l.getClass().getName());
+		System.out.println("f"+l.getClass().getName());
 		Method[] methods = l.getClass().getDeclaredMethods();
 		for (Method method : methods) {
 			System.out.println(method.getName());
